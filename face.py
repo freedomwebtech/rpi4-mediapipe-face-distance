@@ -50,7 +50,7 @@ while True:
             x1=i[0]
             y1=i[1]
           
-        cvzone.putTextRect(frame, f"Distance: {round(Distance,2)} CM", (x1, y1),1, 1)
+        cvzone.putTextRect(frame, f"Distance: {round(Distance)} CM", (x1, y1),1, 1)
     
     
 
